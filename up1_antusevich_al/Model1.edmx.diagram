@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f8627c933d24850869a6cd1550d4b49" Name="Diagram1">
+        <EntityTypeShape EntityType="up1_akshakovaModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="up1_akshakovaModel.Заявки" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="up1_akshakovaModel.Клиенты" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="up1_akshakovaModel.Оборудование" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="up1_akshakovaModel.Работники" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="up1_akshakovaModel.FK_Заявки_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="up1_akshakovaModel.FK_Заявки_Оборудование" ManuallyRouted="false" />
+        <AssociationConnector Association="up1_akshakovaModel.FK_Заявки_Работники" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
